@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+table {
+	font-size: 13px;
+	font-family: "Tahoma";
+}
+
+.data th {
+	padding: 4px 7px 4px 5px;
+	background-color: #bbb;
+}
+
+.data td {
+	padding: 3px 7px 5px 5px;
+	background-color: #c6c6c6;
+}
+
+.data tr:hover td div {
+	visibility: visible;
+}
+
+.data tr:hover td {
+	background-color: #e2e2e2;
+}
+
+#filter {
+	width: 120px;
+}
+
+#filter, #sort, #order {
+	height: 23px;
+	padding: 0px 2px 1px 2px;
+	font-family: "Tahoma";
+	font-size: 13px;
+}
+
+#output {
+	float: left;
+	margin-top: 4px;
+	margin-bottom: 25px;
+}
+
+.left {
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	border-radius: 5px;
+	width: 180px;
+	background-color: #bbb;
+}
+
+.number {
+	text-align: right;
+}			
+
+.portrait {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.portrait div {
+	position: absolute;
+	visibility: hidden;
+}
