@@ -5,18 +5,18 @@ body {
 }
 
 table {
+	font-family: "Tahoma", "Trebuchet MS", "Arial", "Helvetica";
 	font-size: 13px;
-	font-family: "Tahoma";
 }
 
 .data th {
 	padding: 4px 7px 4px 5px;
-	background-color: #bbb;
+	background-color: #BBBBBB;
 }
 
 .data td {
 	padding: 3px 7px 5px 5px;
-	background-color: #c6c6c6;
+	background-color: #C6C6C6;
 }
 
 .data tr:hover td div {
@@ -24,7 +24,7 @@ table {
 }
 
 .data tr:hover td {
-	background-color: #e2e2e2;
+	background-color: #E2E2E2;
 }
 
 #filter {
@@ -34,7 +34,7 @@ table {
 #filter, #sort, #order {
 	height: 23px;
 	padding: 0px 2px 1px 2px;
-	font-family: "Tahoma";
+	font-family: "Tahoma", "Trebuchet MS", "Arial", "Helvetica";
 	font-size: 13px;
 }
 
@@ -49,7 +49,7 @@ table {
 	padding: 15px;
 	border-radius: 5px;
 	width: 180px;
-	background-color: #bbb;
+	background-color: #BBBBBB;
 }
 
 .number {
