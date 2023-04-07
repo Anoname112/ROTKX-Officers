@@ -1,3 +1,31 @@
+window.onload = function () {
+	document.getElementById('filter').focus();
+	inputChanged();
+	
+	/* FIND BIGGEST TOTAL STATS
+	var biggestTotal = 0;
+	var biggestName = '-';
+	var haveDuplicate = false;
+	for (var i = 0; i < officerarray.length; i++) {
+		var total = parseInt(officerarray[i]['ldr']) + parseInt(officerarray[i]['war']) +
+			parseInt(officerarray[i]['int']) + parseInt(officerarray[i]['pol']) +
+			parseInt(officerarray[i]['chr']);
+		
+		if (total == biggestTotal) haveDuplicate = true;
+		else if (total > biggestTotal) {
+			biggestTotal = total;
+			biggestName = officerarray[i]['name'];
+			haveDuplicate = false;
+		}
+	}
+	
+	var alertString = biggestName + ' with ' + biggestTotal;
+	if (haveDuplicate) alertString += ', but have duplicate.';
+	else alertString += ', no duplicate.';
+	alert(alertString);
+	*/
+}
+
 function isNumeric (value) {
 	return /^\d+$/.test(value);
 }
@@ -75,32 +103,4 @@ function inputChanged (sender) {
 	output += '</table>';
 	
 	document.getElementById('output').innerHTML = output;
-}
-
-window.onload = function () {
-	document.getElementById('filter').focus();
-	inputChanged();
-	
-	/* FIND BIGGEST TOTAL STATS
-	var biggestTotal = 0;
-	var biggestName = '-';
-	var haveDuplicate = false;
-	for (var i = 0; i < officerarray.length; i++) {
-		var total = parseInt(officerarray[i]['ldr']) + parseInt(officerarray[i]['war']) +
-			parseInt(officerarray[i]['int']) + parseInt(officerarray[i]['pol']) +
-			parseInt(officerarray[i]['chr']);
-		
-		if (total == biggestTotal) haveDuplicate = true;
-		else if (total > biggestTotal) {
-			biggestTotal = total;
-			biggestName = officerarray[i]['name'];
-			haveDuplicate = false;
-		}
-	}
-	
-	var alertString = biggestName + ' with ' + biggestTotal;
-	if (haveDuplicate) alertString += ', but have duplicate.';
-	else alertString += ', no duplicate.';
-	alert(alertString);
-	*/
 }
