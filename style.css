@@ -32,7 +32,6 @@ table {
 }
 
 #filter, #sort, #order {
-  height: 23px;
   padding: 0px 2px 1px 2px;
   font-family: "Tahoma", "Segoe UI", "Trebuchet MS", "Arial", "Helvetica";
   font-size: 13px;
